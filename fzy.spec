@@ -13,7 +13,7 @@ BuildRequires:	make
 BuildRequires:	gcc
 
 %description
-fzy is a fast, simple fuzzy text selector for the terminal with an advanced scoring algorithm.
+fzy is a fast, simple fuzzy text selector for the terminal.
 
 %prep
 %autosetup -n %{name}-%{commit}
