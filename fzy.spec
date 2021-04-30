@@ -33,3 +33,6 @@ make install PREFIX=%{buildroot}%{_prefix}
 %license LICENSE
 
 %changelog
+
+* Sat Apr 2021 Vincent Rischmann <vincent@rischmann.fr> - 1.0-1
+- First version
