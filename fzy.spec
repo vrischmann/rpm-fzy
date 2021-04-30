@@ -3,7 +3,7 @@
 Summary:	A simple, fast fuzzy finder for the terminal
 Name:		fzy
 Version:	1.0
-Release:	1.%{commit}
+Release:	1%{?dist}
 
 License:	MIT
 URL:		https://github.com/jhawthorn/fzy
