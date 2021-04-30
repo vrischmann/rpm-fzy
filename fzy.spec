@@ -24,7 +24,8 @@ sed -i -e "s:^CFLAGS.*:CFLAGS = %{optflags}:" Makefile
 %make_build
 
 %install
-make install PREFIX=%{buildroot}%{_prefix}
+%{__rm} -rf %{buildroot}
+%make_install PREFIX=%{_prefix}
 
 %files
 %{_bindir}/*
