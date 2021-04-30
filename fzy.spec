@@ -34,5 +34,5 @@ make install PREFIX=%{buildroot}%{_prefix}
 
 %changelog
 
-* Sat Apr 2021 Vincent Rischmann <vincent@rischmann.fr> - 1.0-1
+* Sat May 1 2021 Vincent Rischmann <vincent@rischmann.fr> - 1.0-1
 - First version
