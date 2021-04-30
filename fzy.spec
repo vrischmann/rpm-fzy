@@ -26,8 +26,6 @@ sed -i -e "s:^CFLAGS.*:CFLAGS = %{optflags}:" Makefile
 %install
 make install PREFIX=%{buildroot}%{_prefix}
 
-%post
-
 %files
 %{_bindir}/*
 %{_mandir}/man1/*
