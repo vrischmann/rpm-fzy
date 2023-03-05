@@ -1,4 +1,4 @@
-%global commit 395a2534aca4a704da7501c5e79268420e41d174
+%global commit 9aa19d3250070f0cc9f5601b805ee6ce3d654377
 
 Summary:	A simple, fast fuzzy finder for the terminal
 Name:		fzy
@@ -34,6 +34,9 @@ sed -i -e "s:^CFLAGS.*:CFLAGS = %{optflags}:" Makefile
 %license LICENSE
 
 %changelog
+
+* Sun Mar 5 2023 Vincent Rischmann <vincent@rischmann.fr> - 1.0-2
+- Update upstream commit
 
 * Sat May 1 2021 Vincent Rischmann <vincent@rischmann.fr> - 1.0-1
 - First version
